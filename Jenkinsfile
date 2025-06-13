@@ -2,8 +2,8 @@ pipeline {
     agent any
        environment {
             SYSTEM32 = 'C:\\Windows\\System32'
-            PYTHON_HOME = 'C:/Users/paora/AppData/Local/Programs/Python/Python311'
-            PYTHON_SCRIPTS = 'C:/Users/paora/AppData/Local/Programs/Python/Python311/Scripts'
+            PYTHON_HOME = 'C:\\Users\\paora\\AppData\\Local\\Programs\\Python\\Python311'
+            PYTHON_SCRIPTS = 'C:\\Users\\paora\\AppData\\Local\\Programs\\Python\\Python311\\Scripts'
             PATH = "${SYSTEM32};${PYTHON_HOME};${env.PATH}"
        }
 
